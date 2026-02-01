@@ -1,4 +1,5 @@
 let cars = ["mu name",1,2];
+
 //or
 let cars1 = new Array("bmw","benz","vitz");
 console.log("---Print cars array element---\n")
