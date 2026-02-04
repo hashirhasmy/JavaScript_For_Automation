@@ -79,12 +79,12 @@ console.log(mg);
 personal notes for better understanding:
  
 🔑 var vs let vs const — Main Differences
-Feature	        var	                                      let	                            const
-Scope	        Function scoped	                          Block scoped	                    Block scoped
-Can re-declare?	✅ Yes	                                ❌ No	                         ❌ No
-Can re-assign?	✅ Yes	                                ✅ Yes	                         ❌ No
-Hoisted?	    ✅ Yes (initialized as undefined)	    ⚠️ Yes (not initialized)	      ⚠️ Yes (not initialized)
-Modern usage	❌ Avoid	                                ✅ Recommended	                 ✅ Recommended
+Feature	          var	                                      let	                             const
+Scope	            Function scoped	                          Block scoped	                   Block scoped
+Can re-declare?	  ✅ Yes	                                  ❌ No	                          ❌ No
+Can re-assign?	  ✅ Yes	                                  ✅ Yes	                          ❌ No
+Hoisted?	        ✅ Yes (initialized as undefined)	      ⚠️ Yes (not initialized)	       ⚠️ Yes (not initialized)
+Modern usage	    ❌ Avoid	                                ✅ Recommended	                  ✅ Recommended
 
 
 🧱 First understand what a “block” is in JS
