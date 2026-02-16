@@ -4,6 +4,11 @@ function add(a, b) {
     return a + b;
 }
 
+function defaultParameterCheck(a, b = "default value") {
+    console.log("This is the function with default parameter : " + a + b);
+}
+defaultParameterCheck("Hello, ", "default value overided");
+
 let result = add(5, 3);
 console.log(result);
 
